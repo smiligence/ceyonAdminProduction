@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "268108128170",
+    "project_id": "techdev-da79b",
+    "storage_bucket": "techdev-da79b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268108128170:android:5ba9b050cdbfc6fb5c55d3",
+        "android_client_info": {
+          "package_name": "com.smiligence.techAdmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268108128170-oqans5f916rvbkrpci7u2h4ls3prsua8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNzp9i_JGUl0VxiDCtnoeOK6GZB7X-XM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268108128170-oqans5f916rvbkrpci7u2h4ls3prsua8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vieworders"
+            android:icon="@drawable/ic_vieworders"
+            android:title="View Orders" />
+
+        <item
+            android:id="@+id/billingScreen"
+            android:icon="@drawable/ic_vieworders"
+            android:title="Retail Billing" />
+
+
+
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_categories"
+            android:title="Categories" />
+
+        <item
+            android:id="@+id/add_items"
+            android:icon="@drawable/ic_additems"
+            android:title="Items" />
+
+        <item
+            android:id="@+id/add_description"
+            android:icon="@drawable/ic_additems"
+            android:title="Add Description" />
+
+        <item
+            android:id="@+id/Add_Advertisment"
+            android:icon="@drawable/ic_addbanners"
+            android:title="Maintain Banners" />
+
+        <item
+            android:id="@+id/discounts"
+            android:icon="@drawable/ic_add_discounts"
+            android:title="Discounts" />
+        <item
+            android:id="@+id/add_seller"
+            android:icon="@drawable/ic_seller_profil"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/updatestatus"
+            android:icon="@drawable/ic_update_order_status"
+            android:title="Update Order Status" />
+
+        <item
+            android:id="@+id/contactdetails"
+            android:icon="@drawable/ic_admin_details"
+            android:title="Delivery Settings" />
+
+        <item
+            android:id="@+id/CustomerDetails"
+            android:icon="@drawable/ic_customer_details"
+            android:title="Customer Details" />
+        <item
+            android:id="@+id/reviewApproval"
+            app:actionLayout="@layout/menu_counter"
+            app:actionViewClass="android.widget.TextView"
+            android:icon="@drawable/ic_item_approval_01"
+            android:title="Customer Reviews" />
+        <item
+            android:id="@+id/legal"
+            android:icon="@drawable/ic_legal_details"
+            android:title="Legal Details" />
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="DashBoard" />
+        <item
+            android:id="@+id/logoutscreen"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>
